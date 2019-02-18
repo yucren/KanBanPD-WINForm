@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="LonKing_MES_JX" Class="pro_ExecKanbanInv_lansqDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=192.168.50.68;Initial Catalog=LonKing_MES_JX;Persist Security Info=True;User ID=sa" SettingsObjectName="LonKingKanBanPD.Properties.Settings" SettingsPropertyName="LonKing_MES_JXConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.pro_ExecKanbanInv_lansq" Method="pro_ExecKanbanInv_lansq">
+    <Parameter Name="kbCode" Type="System.String" DbType="NVarChar(64)" />
+    <Parameter Name="bustype" Type="System.Int32" DbType="Int" />
+    <Parameter Name="lineID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ProID" Parameter="proID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ItemID" Parameter="itemID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Count" Parameter="count" Type="System.Int32" DbType="Int" />
+    <Parameter Name="operName" Type="System.String" DbType="NVarChar(50)" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>
